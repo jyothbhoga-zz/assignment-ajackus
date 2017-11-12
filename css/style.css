@@ -1,0 +1,189 @@
+.page img {
+    display: block;
+    margin: auto;
+}
+
+.image img {
+    display: block;
+    margin: auto;
+}
+
+.page {
+    text-align: center;
+}
+
+.page h6 {
+    color: #d5d5d5;
+    font-family: regular;
+}
+
+h3 {
+    color: #1c4974;
+    display: inline-block;
+    font-size: 25px;
+    font-family: regular;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: bold;
+    src: url('./fonts/SF-Compact-Display-Bold.otf')
+}
+
+.page h1 {
+    font-weight: bolder;
+    color: #ef4f49;
+    font-size: 45px;
+    margin-top: 10px;
+    font-family: bold;
+}
+
+@font-face {
+    font-family: regular;
+    src: url('./fonts/SF-Compact-Display-Regular.otf');
+}
+
+h4 {
+    color: #ef4f49;
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 0px;
+    font-family: regular;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SFCompactDisplay;
+    src: url(../css/fonts/SF-Compact-Display.otf) format(otf);
+}
+
+.page p {
+    margin-top: 20px;
+    color: #434c50;
+    font-family: regular;
+}
+
+h2 {
+    color: #ef4f49;
+    font-family: bold;
+    font-size: 30px;
+}
+
+.button {
+    background-color: none;
+    border: 2px solid #ef4f49;
+    color: #ef4f49;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 35px 0px 10px;
+    cursor: pointer;
+    transition: .5s background, color;
+    font-family: bold;
+}
+
+.button:hover,
+active,
+visited {
+    background: #ef4f49;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+input[type=text],
+select {
+    width: 75%;
+    padding: 14px 20px;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    background: #454c50;
+    color: #ccc;
+    font-family: regular;
+}
+
+form {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.imag {
+    text-align: center;
+}
+
+.imag img {
+    display: block;
+    margin: auto;
+}
+
+.imag label {
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #d5d5d5;
+    margin-left: 13%;
+    font-size: 10px;
+    font-family: bold;
+}
+
+.imag form {
+    width: 50%;
+    text-align: left;
+}
+
+.imag p {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: regular;
+    font-size: 15px;
+}
+
+hr.a1 {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+input[type=text]:focus,
+visited,
+active {
+    background: #ffffff;
+    color: #000000;
+    outline: none !important;
+    border: 2px solid #808080;
+}
+
+form hr {
+    margin-top: 45px;
+}
+
+.imag .button {
+    text-align: center;
+    padding: 10px 70px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 500px) {
+    .imag form {
+        width: 100%;
+    }
+    .imag p {
+        width: 100%;
+    }
+    input[type=text] {
+        width: 95%;
+    }
+    .imag label {
+        margin-left: 3%;
+    }
+    .imag .button {
+        padding: 10px 40px;
+    }
+}
